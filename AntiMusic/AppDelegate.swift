@@ -124,7 +124,6 @@ typealias MRMediaRemoteGetNowPlayingClientFunction = @convention(c) (DispatchQue
     
     func refreshFakePlayerMetadata() {
         fakePlayer[MPMediaItemPropertyTitle] = playerApp.split(separator: "/").last
-        NSApp.applicationIconImage = NSWorkspace.shared.icon(forFile: self.playerApp)
         if #available(macOS 10.13.2, *) {
             let targetSize = CGSize(width: 1024, height: 1024)
             let miniSize = CGSize(width: targetSize.width / 2, height: targetSize.height / 2)
