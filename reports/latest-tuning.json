@@ -1,0 +1,3 @@
+{"title":"AntiMusic 参数调优报告","ts":"2026-10-02 20:09:03","macos":"27.0.1","results":[{"id":"trial-1","result":"PASS","note":"冷启动→出声 2.3s"},{"id":"trial-2","result":"PASS","note":"冷启动→出声 2.3s"},{"id":"trial-3","result":"PASS","note":"冷启动→出声 2.0s"},{"id":"trial-4","result":"PASS","note":"冷启动→出声 1.9s"},{"id":"trial-5","result":"PASS","note":"冷启动→出声 2.3s"},{"id":"summary
+推荐：launchTimeout ≥ 4s（当前默认 5s）
+推荐：readyDelay 1.5s 起步；若 P90 > 5s，说明 P1b 广播未生效（查看日志 inject 段确认生效手段），优先排查热键配置而非加大延迟","result":"INFO","note":"成功 5 轮；中位 2.3s，P90 2.3s，最差 2.3s"}]}

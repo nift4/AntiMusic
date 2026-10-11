@@ -14,6 +14,16 @@
 		C74B66BA2AF1661100F8A72D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C74B66B92AF1661100F8A72D /* Assets.xcassets */; };
 		C74B66BF2AF1661100F8A72D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C74B66BE2AF1661100F8A72D /* main.m */; };
 		C74B66C82AF1728200F8A72D /* LaunchAtLoginController.m in Sources */ = {isa = PBXBuildFile; fileRef = C74B66C62AF1728200F8A72D /* LaunchAtLoginController.m */; };
+		0A0A0A0A2025010100000001 /* WakeConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A0A0A0A2025010100000011 /* WakeConfig.swift */; };
+		0A0A0A0A2025010100000002 /* AudioActivityMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A0A0A0A2025010100000012 /* AudioActivityMonitor.swift */; };
+		0A0A0A0A2025010100000003 /* PermissionsChecker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A0A0A0A2025010100000013 /* PermissionsChecker.swift */; };
+		0A0A0A0A2025010100000004 /* WakeStateMachine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A0A0A0A2025010100000014 /* WakeStateMachine.swift */; };
+		0A0A0A0A2025010100000005 /* Injector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A0A0A0A2025010100000015 /* Injector.swift */; };
+		0A0A0A0A2025010100000006 /* MediaKeyTap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A0A0A0A2025010100000016 /* MediaKeyTap.swift */; };
+		0A0A0A0A2025010100000007 /* WakeLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A0A0A0A2025010100000017 /* WakeLog.swift */; };
+		0A0A0A0A2025010100000008 /* WakeEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A0A0A0A2025010100000018 /* WakeEngine.swift */; };
+		0A0A0A0A2025010100000009 /* StatusMenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A0A0A0A2025010100000019 /* StatusMenuController.swift */; };
+		0A0A0A0A202501010000000A /* SettingsWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A0A0A0A202501010000001A /* SettingsWindowController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +37,16 @@
 		C74B66BE2AF1661100F8A72D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C74B66C62AF1728200F8A72D /* LaunchAtLoginController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LaunchAtLoginController.m; sourceTree = "<group>"; };
 		C74B66C72AF1728200F8A72D /* LaunchAtLoginController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LaunchAtLoginController.h; sourceTree = "<group>"; };
+		0A0A0A0A2025010100000011 /* WakeConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WakeConfig.swift; sourceTree = "<group>"; };
+		0A0A0A0A2025010100000012 /* AudioActivityMonitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioActivityMonitor.swift; sourceTree = "<group>"; };
+		0A0A0A0A2025010100000013 /* PermissionsChecker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PermissionsChecker.swift; sourceTree = "<group>"; };
+		0A0A0A0A2025010100000014 /* WakeStateMachine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WakeStateMachine.swift; sourceTree = "<group>"; };
+		0A0A0A0A2025010100000015 /* Injector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Injector.swift; sourceTree = "<group>"; };
+		0A0A0A0A2025010100000016 /* MediaKeyTap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaKeyTap.swift; sourceTree = "<group>"; };
+		0A0A0A0A2025010100000017 /* WakeLog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WakeLog.swift; sourceTree = "<group>"; };
+		0A0A0A0A2025010100000018 /* WakeEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WakeEngine.swift; sourceTree = "<group>"; };
+		0A0A0A0A2025010100000019 /* StatusMenuController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusMenuController.swift; sourceTree = "<group>"; };
+		0A0A0A0A202501010000001A /* SettingsWindowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsWindowController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +85,16 @@
 				C74B66B92AF1661100F8A72D /* Assets.xcassets */,
 				C74B66BE2AF1661100F8A72D /* main.m */,
 				01AC15902B23B6F700920888 /* AppDelegate.swift */,
+				0A0A0A0A2025010100000011 /* WakeConfig.swift */,
+				0A0A0A0A2025010100000012 /* AudioActivityMonitor.swift */,
+				0A0A0A0A2025010100000013 /* PermissionsChecker.swift */,
+				0A0A0A0A2025010100000014 /* WakeStateMachine.swift */,
+				0A0A0A0A2025010100000015 /* Injector.swift */,
+				0A0A0A0A2025010100000016 /* MediaKeyTap.swift */,
+				0A0A0A0A2025010100000017 /* WakeLog.swift */,
+				0A0A0A0A2025010100000018 /* WakeEngine.swift */,
+				0A0A0A0A2025010100000019 /* StatusMenuController.swift */,
+				0A0A0A0A202501010000001A /* SettingsWindowController.swift */,
 				01AC158F2B23B6F700920888 /* AntiMusic-Bridging-Header.h */,
 				01AC15922B23C7FA00920888 /* MainMenu.xib */,
 				01706C972B24EC0D00E54231 /* ViewController.swift */,
@@ -144,6 +174,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				01AC15912B23B6F700920888 /* AppDelegate.swift in Sources */,
+				0A0A0A0A2025010100000001 /* WakeConfig.swift in Sources */,
+				0A0A0A0A2025010100000002 /* AudioActivityMonitor.swift in Sources */,
+				0A0A0A0A2025010100000003 /* PermissionsChecker.swift in Sources */,
+				0A0A0A0A2025010100000004 /* WakeStateMachine.swift in Sources */,
+				0A0A0A0A2025010100000005 /* Injector.swift in Sources */,
+				0A0A0A0A2025010100000006 /* MediaKeyTap.swift in Sources */,
+				0A0A0A0A2025010100000007 /* WakeLog.swift in Sources */,
+				0A0A0A0A2025010100000008 /* WakeEngine.swift in Sources */,
+				0A0A0A0A2025010100000009 /* StatusMenuController.swift in Sources */,
+				0A0A0A0A202501010000000A /* SettingsWindowController.swift in Sources */,
 				C74B66C82AF1728200F8A72D /* LaunchAtLoginController.m in Sources */,
 				01706C982B24EC0D00E54231 /* ViewController.swift in Sources */,
 				C74B66BF2AF1661100F8A72D /* main.m in Sources */,
@@ -288,7 +328,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
 				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = org.nift4.AntiMusic;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -319,7 +359,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
 				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = org.nift4.AntiMusic;
 				PRODUCT_NAME = "$(TARGET_NAME)";

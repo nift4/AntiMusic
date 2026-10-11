@@ -1,0 +1,25 @@
+# AntiMusic 验收报告
+
+- 时间：2026-10-02 20:35:11
+- 环境：macOS 27.0.1 arm64 ｜ QQ音乐 11.10.0 (com.tencent.QQMusicMac)
+
+| 结果 | 场景 | 说明 |
+|---|---|---|
+| PASS | 1-cold-start-play | 冷启动触发 → QQ音乐出声（App 内注入链） |
+| PASS | 8-no-apple-music | Apple Music 未被唤起 |
+| PASS | 12-background-injection | 后台注入生效 |
+| PASS | 5-rapid-trigger-stability | 连触 5 次无卡死、无 Apple Music |
+| PASS | env-tcc-cli | 终端具备注入权限：HID 层场景可执行 |
+| FAIL | 3-play-key-pauses | 播放中 F8 未暂停（交棒是否完成？） |
+| PASS | 2-pause-resume | 暂停态 F8 → 恢复播放 |
+| PASS | 4-next-prev-keys | F7/F9 生效且未打断播放 |
+| SKIPPED | 6-bluetooth | 人工场景（--auto-only 跳过） |
+| SKIPPED | 7-reboot-autostart | 人工场景（--auto-only 跳过） |
+| SKIPPED | 9-now-playing-widget | 人工场景（--auto-only 跳过） |
+| SKIPPED | 10-test-inject-button | 人工场景（--auto-only 跳过） |
+| SKIPPED | 11-permission-revoke | 人工场景（--auto-only 跳过） |
+| SKIPPED | 8b-bluetooth-no-music | 人工场景（--auto-only 跳过） |
+
+- 1 FAIL
+- 7 PASS
+- 6 SKIPPED（权限/环境门控，授权后重跑即自动化）
